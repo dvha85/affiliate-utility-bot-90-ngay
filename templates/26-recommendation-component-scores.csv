@@ -1,0 +1,2 @@
+component_score_id,recommendation_run_id,stack_id,score_scope,product_id,need_group,rule_id,rule_version,component,raw_score_0_to_5,weight,weighted_points,stack_adjustment_points,evidence_ids_json,reason_code,reason_rendered,evidence_confidence_reference,input_schema_version,data_version,scoring_version,stack_rules_version,calculated_at,is_internal_or_test,notes
+

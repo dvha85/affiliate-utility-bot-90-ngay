@@ -1,0 +1,2 @@
+rule_id,rule_version,scoring_version,rule_type,score_scope,component,input_field,input_operator,input_value_json,product_or_evidence_field,product_operator,product_value_json,score_value_0_to_5,weight,hard_filter_result,public_ranking_allowed,reason_code,reason_template,evidence_keys_required_json,unknown_behavior,priority,status,approved_by,approved_at,effective_at,notes
+

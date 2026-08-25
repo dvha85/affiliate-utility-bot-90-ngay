@@ -1,0 +1,2 @@
+page_id,url_or_slug,page_type,audience,intent,decision_job,status,page_version,data_version,scoring_version,critical_evidence_coverage,last_fact_checked_at,next_fact_check_at,link_ids_json,disclosure_checked_at,paid_link_rel_checked_at,tracking_checked_at,indexing_intent,search_console_status,owner,reviewer,rollback_version,risk_level,notes
+

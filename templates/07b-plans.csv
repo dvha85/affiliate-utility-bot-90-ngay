@@ -1,0 +1,2 @@
+plan_id,product_id,plan_name,region,currency,billing_interval,pricing_model,price_unit,actual_charge_amount,annual_equivalent_monthly_amount,per_seat_amount,included_seats,minimum_seats,usage_tiers_json,tax_status,trial_available,trial_terms,refund_terms,quota_summary,source_id,source_url,checked_at,effective_at,next_check_at,confidence,status,record_version,change_request_id,valid_from,valid_to,reviewer,notes
+

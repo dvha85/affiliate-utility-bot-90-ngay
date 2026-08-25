@@ -1,0 +1,2 @@
+evidence_id,product_id,plan_id,field_or_feature_key,normalized_value,value_type,is_must_have_relevant,is_limitation,source_id,source_url,evidence_summary,source_tier,checked_at,effective_at,next_check_at,confidence,status,conflict_reference,record_version,change_request_id,valid_from,valid_to,checked_by,notes
+
