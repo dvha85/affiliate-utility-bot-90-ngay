@@ -60,6 +60,14 @@ Nhịp mặc định:
 | 12 | [Ví dụ xuyên suốt đã điền](12-vi-du-xuyen-suot.md) | Xem một case hư cấu từ Charter → scoring → event → commission → KPI |
 | 13 | [Thư viện biểu mẫu](templates/README.md) | Sao chép để dùng cho dự án thật |
 
+## Bài học chi tiết theo ngày
+
+Các bài này mở rộng lộ trình Day 1–90 thành hướng dẫn tự học có ví dụ, bài tập, đáp án tham khảo, checklist và đầu ra phải lưu.
+
+| Ngày | Bài học | Trạng thái |
+|---:|---|---|
+| 1 | [Hiểu mô hình và lập Project Charter](bai-hoc/ngay-01-mo-hinh-va-project-charter.md) | Hoàn thành |
+
 ## Bảy giai đoạn và sản phẩm bàn giao
 
 | Giai đoạn | Ngày | Kết quả bắt buộc |
