@@ -12,7 +12,7 @@
 
 ## 2. Mục tiêu một câu
 
-> Tôi giúp **[nhóm người dùng]** chọn **[loại công cụ]** khi **[tình huống/ràng buộc]** bằng **[utility/giá trị khác biệt]**.
+> Tôi giúp **freelancer Việt Nam lần đầu cần website để nhận khách** chọn **domain, hosting và cách dựng landing page** khi **ngân sách/kỹ năng có giới hạn** bằng **Website Stack Builder giải thích chi phí, độ khó và lý do gợi ý**.
 
 ## 3. ICP và thị trường
 
@@ -26,9 +26,9 @@
 
 ## 4. Sản phẩm 90 ngày
 
-- Utility duy nhất: AI/SaaS Stack Builder.
-- Inputs dự kiến:
-- Outputs dự kiến:
+- Utility duy nhất: Website Stack Builder.
+- Inputs dự kiến: loại hình dịch vụ, mục tiêu trang, kỹ năng, ngân sách, mức trả trước tối đa, nhu cầu domain/email/form liên hệ, thị trường/ngôn ngữ và ưu tiên hỗ trợ.
+- Outputs dự kiến: tối đa ba stack domain + hosting + cách dựng landing page; tổng chi phí, chu kỳ thanh toán, độ khó, lý do, giới hạn, ngày kiểm tra dữ liệu và phương án thay thế.
 - Số sản phẩm: `STANDARD 12–15 / LEAN 8`
 - Số decision assets: `STANDARD 5 / LEAN 3` (trust/legal pages tính riêng và vẫn bắt buộc)
 - Tracking tối thiểu: `journey_id`, `utility_start`, `utility_complete`, `result_view`, `product_outbound_click`; thêm `affiliate_click` khi có link affiliate.

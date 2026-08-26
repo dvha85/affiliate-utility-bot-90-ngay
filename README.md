@@ -8,7 +8,7 @@ Bộ bàn giao gồm **12 chương**, **90/90 dòng công việc theo ngày**, *
 
 ## Bộ tài liệu này giúp bạn làm gì?
 
-Trong 90 ngày, bạn sẽ xây và đưa lên Internet một phiên bản nhỏ của **AI/SaaS Stack Builder**: người dùng nhập nhu cầu và ngân sách, hệ thống dùng dữ liệu có nguồn để đề xuất một bộ công cụ phù hợp, giải thích lý do và dẫn tới trang sản phẩm qua liên kết affiliate được công bố rõ ràng.
+Trong 90 ngày, bạn sẽ xây và đưa lên Internet một phiên bản nhỏ của **Website Stack Builder** cho freelancer Việt Nam lần đầu cần website/landing page để nhận khách: người dùng nhập mục tiêu, ngân sách và kỹ năng; hệ thống dùng dữ liệu có nguồn để đề xuất domain, hosting và cách dựng landing page phù hợp, giải thích lý do và dẫn tới trang nhà cung cấp qua liên kết affiliate được công bố rõ ràng.
 
 Mục tiêu không phải là “bật bot rồi chắc chắn có tiền”. Không mô hình hợp pháp nào bảo đảm điều đó. Mục tiêu thực tế là tạo được một tài sản số có thể kiểm chứng:
 

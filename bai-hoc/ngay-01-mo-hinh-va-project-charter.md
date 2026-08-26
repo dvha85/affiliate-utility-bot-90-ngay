@@ -10,7 +10,7 @@ Kết thúc bài này, bạn chưa tạo website, chưa đăng ký affiliate và
 
 Bạn có thể nói được câu sau mà không dùng từ chung chung:
 
-> “Tôi đang xây **một công cụ gợi ý bộ AI/SaaS** giúp **[một nhóm người cụ thể]** chọn **[loại công cụ cụ thể]** khi **[một tình huống cụ thể]**, trong **[thị trường/ngôn ngữ]**.”
+> “Tôi đang xây **Website Stack Builder** giúp **freelancer Việt Nam lần đầu cần website nhận khách** chọn **domain, hosting và cách dựng landing page** khi **ngân sách/kỹ năng có giới hạn**, trong **thị trường Việt Nam / tiếng Việt**.”
 
 Nếu chưa nói được câu này, đừng chuyển sang Ngày 2. Đó không phải thất bại; chỉ là phạm vi chưa đủ rõ.
 
@@ -32,7 +32,7 @@ Người dùng bấm sang trang sản phẩm phù hợp
 Nếu có mua hàng qua liên kết hợp lệ: affiliate program ghi nhận hoa hồng
 ```
 
-Ví dụ: một freelancer muốn làm nội dung bằng tiếng Việt, ngân sách tối đa 30 USD/tháng và không biết nên chọn công cụ viết, thiết kế hay email nào trước. Utility của bạn không “ép mua”; nó giúp họ thấy lựa chọn nào phù hợp với nhu cầu và ngân sách.
+Ví dụ: một freelancer chụp ảnh muốn có trang giới thiệu dịch vụ bằng tiếng Việt, ngân sách tối đa 500.000 đồng/tháng và không biết cần mua domain, hosting hay dùng nền tảng no-code nào trước. Utility của bạn không “ép mua”; nó giúp họ thấy lựa chọn nào phù hợp với nhu cầu, kỹ năng và ngân sách.
 
 ### 2.2. Bốn từ cần phân biệt ngay từ đầu
 
@@ -62,20 +62,20 @@ Ngày 1 chỉ đặt bốn “hàng rào”:
 
 Đây là ví dụ hư cấu để bạn hiểu cách điền. Không sao chép nguyên xi nếu nó không giống hoàn cảnh của bạn.
 
-> “Tôi giúp freelancer Việt Nam mới bắt đầu làm content chọn bộ công cụ AI/SaaS đầu tiên dưới 50 USD/tháng, bằng một Stack Builder giải thích chi phí và lý do gợi ý.”
+> “Tôi giúp freelancer Việt Nam lần đầu làm website nhận khách chọn domain, hosting và cách dựng landing page dưới ngân sách của họ, bằng Website Stack Builder giải thích chi phí, độ khó và lý do gợi ý.”
 
 Ví dụ này có điểm tốt:
 
-- Không nhắm đến “tất cả mọi người dùng AI”.
+- Không nhắm đến “tất cả freelancer”.
 - Không cam kết “giúp kiếm tiền nhanh”.
-- Có một tình huống quyết định rõ: chọn bộ công cụ đầu tiên dưới ngân sách.
-- Có một utility cụ thể: Stack Builder.
+- Có một tình huống quyết định rõ: chọn website stack đầu tiên dưới ngân sách.
+- Có một utility cụ thể: Website Stack Builder.
 
 Ví dụ quá rộng, chưa đạt:
 
-> “Tôi làm bot AI giúp mọi người chọn các tool tốt nhất để kiếm tiền online.”
+> “Tôi làm bot AI giúp mọi người chọn website tốt nhất để kiếm tiền online.”
 
-Lý do chưa đạt: “mọi người”, “tool tốt nhất” và “kiếm tiền online” đều không có giới hạn. Không thể biết cần dữ liệu gì, thiết kế câu hỏi nào hoặc đánh giá kết quả theo cách nào.
+Lý do chưa đạt: “mọi người”, “website tốt nhất” và “kiếm tiền online” đều không có giới hạn. Không thể biết cần dữ liệu gì, thiết kế câu hỏi nào hoặc đánh giá kết quả theo cách nào.
 
 ---
 
@@ -112,9 +112,9 @@ Viết ba phiên bản, rồi chọn phiên bản hẹp nhất mà bạn vẫn m
 
 Ví dụ:
 
-1. Rộng: “Tôi giúp creator chọn AI tool.”
-2. Tốt hơn: “Tôi giúp creator mới chọn AI tool để làm nội dung.”
-3. Dùng được: “Tôi giúp freelancer Việt Nam mới làm content chọn stack AI/SaaS đầu tiên dưới 50 USD/tháng bằng Stack Builder.”
+1. Rộng: “Tôi giúp mọi người làm website.”
+2. Tốt hơn: “Tôi giúp freelancer chọn hosting.”
+3. Dùng được: “Tôi giúp freelancer Việt Nam lần đầu cần website nhận khách chọn domain, hosting và cách dựng landing page theo ngân sách/kỹ năng bằng Website Stack Builder.”
 
 Kiểm tra nhanh:
 
@@ -133,25 +133,25 @@ Nếu một câu dùng từ “tốt nhất”, “mọi người”, “tất c
 
 | Trường | Điền gì hôm nay? | Ví dụ |
 |---|---|---|
-| Segment | Một nhóm hẹp | `Freelancer Việt Nam mới làm content` |
-| JTBD | Việc họ cố hoàn thành | `Chọn công cụ đầu tiên để lập quy trình content` |
-| Vấn đề chính | Trở ngại hiện tại | `Quá nhiều lựa chọn, khó so chi phí và tính năng` |
+| Segment | Một nhóm hẹp | `Freelancer Việt Nam lần đầu cần website nhận khách` |
+| JTBD | Việc họ cố hoàn thành | `Chọn website stack đầu tiên để giới thiệu dịch vụ và nhận liên hệ` |
+| Vấn đề chính | Trở ngại hiện tại | `Quá nhiều lựa chọn domain/hosting/builder; khó so chi phí, độ khó và hỗ trợ` |
 | Ngôn ngữ website | Một ngôn ngữ ưu tiên | `Tiếng Việt` |
 | Thị trường mục tiêu | Một quốc gia/khu vực | `Việt Nam` |
 | Nhóm không phục vụ | Những ai bạn chủ động không nhắm tới | `Doanh nghiệp lớn, team trên 5 người, người cần tư vấn pháp lý` |
 
 **JTBD** nghĩa là “việc cần hoàn thành”, không phải mô tả sản phẩm của bạn.  
 Không tốt: “Họ cần một bot gợi ý.”  
-Tốt: “Họ cần chọn một bộ công cụ đủ dùng mà không vượt ngân sách.”
+Tốt: “Họ cần chọn một website stack đủ dùng để nhận khách mà không vượt ngân sách và kỹ năng.”
 
 ### Bước 4 — Chốt sản phẩm 90 ngày ở mức MVP (10 phút)
 
 Trong phần **Sản phẩm 90 ngày**, giữ đúng phạm vi mặc định:
 
 ```text
-Utility duy nhất: AI/SaaS Stack Builder
-Input dự kiến: mục tiêu, nhu cầu chính, ngân sách, kinh nghiệm, thị trường
-Output dự kiến: 2–4 stack hợp lệ, tổng chi phí, lý do và phương án thay thế
+Utility duy nhất: Website Stack Builder
+Input dự kiến: loại hình dịch vụ, mục tiêu trang, ngân sách, kỹ năng, nhu cầu domain/email/form liên hệ, thị trường
+Output dự kiến: 2–3 stack domain + hosting + cách dựng landing page, tổng chi phí, độ khó, lý do và phương án thay thế
 ```
 
 Bạn chưa cần chọn công nghệ. Đừng thêm chatbot, đăng nhập, mobile app, database, app store, cộng đồng trả phí hoặc mười utility khác. Những thứ này có thể là backlog, nhưng không thuộc MVP Ngày 1.
@@ -159,7 +159,7 @@ Bạn chưa cần chọn công nghệ. Đừng thêm chatbot, đăng nhập, mob
 Nếu bạn không biết code, ghi rõ:
 
 ```text
-Beginner Track: CSV/JSON đã duyệt → website tĩnh → link product đã duyệt.
+Beginner Track: CSV/JSON đã duyệt → website tĩnh → link nhà cung cấp domain/hosting/website builder đã duyệt.
 Không cần backend, login hoặc router ở bản đầu.
 ```
 
@@ -218,9 +218,9 @@ Trong bảng giả định, thêm ít nhất ba dòng. Dùng từ `UNKNOWN` khi 
 
 | ID | Giả định | Bằng chứng cần | Hạn kiểm tra | Trạng thái |
 |---|---|---|---|---|
-| A-01 | Freelancer Việt Nam mới làm content cần so sánh AI/SaaS theo ngân sách | 30 evidence có URL, nhiều nguồn | Day 21 | `UNKNOWN` |
-| A-02 | Có đủ sản phẩm và dữ kiện chính thức để làm MVP | Product/program research | Day 28 | `UNKNOWN` |
-| A-03 | Website tiếng Việt là cách tiếp cận phù hợp với ICP này | Research + paper test | Day 21 | `UNKNOWN` |
+| A-01 | Freelancer Việt Nam lần đầu cần website nhận khách cần so sánh domain/hosting/builder theo ngân sách và kỹ năng | 30 evidence có URL, nhiều nguồn | Day 21 | `UNKNOWN` |
+| A-02 | Có đủ nhà cung cấp và dữ kiện chính thức để làm MVP | Product/program research | Day 28 | `UNKNOWN` |
+| A-03 | Website tiếng Việt và utility tự phục vụ là cách tiếp cận phù hợp với ICP này | Research + paper test | Day 21 | `UNKNOWN` |
 
 Một giả định không phải lời tiên tri. Nó là câu hỏi có hạn kiểm tra.
 

@@ -86,11 +86,11 @@ Mỗi buổi:
 | Ngày | Học | Làm | Đầu ra | Điều kiện đạt |
 |---:|---|---|---|---|
 | 22 | Commission, attribution, cookie window, reversal, payout | Vẽ vòng đời giao dịch và nguồn sự thật cho mỗi trạng thái | Affiliate Lifecycle | Hiểu commission rate cao không đồng nghĩa expected payout cao |
-| 23 | Product universe | Liệt kê khoảng 30 AI/SaaS tool liên quan đúng ICP/JTBD | Product Longlist | Mỗi sản phẩm map tới ít nhất một need; chưa chấm theo commission |
+| 23 | Product universe | Liệt kê khoảng 30 lựa chọn domain, hosting, website builder, landing-page template và email theo tên miền liên quan đúng ICP/JTBD | Product Longlist | Mỗi lựa chọn map tới ít nhất một need; chưa chấm theo commission |
 | 24 | Đọc affiliate terms | Tìm chương trình chính thức; đọc eligibility, channel rules, trademark, self-referral, payout, data use | 3–5 [Program Reviews](templates/04-affiliate-program-review.md) | Mỗi claim có official URL + checked date; điểm chưa rõ là `BLOCKED`, không tự suy diễn |
 | 25 | Market fit | Kiểm tra region, language, currency, payment, plan availability | Market Fit Sheet | Không đưa sản phẩm không thể mua/dùng trong target market vào eligible set |
 | 26 | Unit economics v0 | Cập nhật mô hình với price/commission có nguồn; tách fact/assumption | Economics v1 | Có downside case, cost trần và không gọi pending là revenue chắc chắn |
-| 27 | Chọn danh mục MVP | Rút còn 12–15 sản phẩm (`LEAN`: 8), 3–5 category, nhiều mức giá; giữ lựa chọn non-affiliate | MVP Product List | User fit không phụ thuộc có chương trình; không một vendor nào chiếm toàn bộ category |
+| 27 | Chọn danh mục MVP | Rút còn 12–15 lựa chọn (`LEAN`: 8) ở 3–5 category: domain, hosting, website/landing builder, email theo tên miền và template; giữ lựa chọn non-affiliate | MVP Product List | User fit không phụ thuộc có chương trình; không một vendor nào chiếm toàn bộ category |
 | 28 | Rủi ro phụ thuộc | Chọn đường kiếm tiền chính, backup và phương án launch khi đang chờ duyệt | Monetization Decision | Gate 2 `GO/CONDITIONAL`; con người tự duyệt terms/KYC/tax/payout |
 
 ### Điều kiện `CONDITIONAL`

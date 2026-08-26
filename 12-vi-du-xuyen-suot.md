@@ -4,16 +4,16 @@
 
 ## 1. Tình huống mẫu
 
-Lan làm website tiếng Việt cho người làm nội dung một mình. Utility cần trả lời:
+Lan xây Website Stack Builder tiếng Việt cho freelancer lần đầu cần website nhận khách. Utility cần trả lời:
 
-> “Với tối đa 60 USD/tháng, chỉ muốn trả theo tháng, tôi nên chọn bộ công cụ SEO + email nào?”
+> “Tôi là freelancer chụp ảnh mới, có tối đa 60 USD/tháng và không biết code; tôi nên chọn domain, hosting và cách dựng landing page nào để nhận liên hệ?”
 
 Project Charter rút gọn:
 
 | Field | Giá trị mẫu |
 |---|---|
-| Segment | Solo content creator mới bắt đầu |
-| JTBD | Chọn đủ công cụ SEO + email mà không vượt ngân sách |
+| Segment | Freelancer Việt Nam lần đầu cần website nhận khách |
+| JTBD | Chọn domain, hosting và cách dựng landing page để giới thiệu dịch vụ/nhận liên hệ |
 | Market/language | Việt Nam / tiếng Việt |
 | Team size | 1 |
 | Billing preference | Monthly only |
@@ -31,8 +31,8 @@ Ba dòng minh họa trong [Research Log](templates/02-research-log.csv):
 
 | ID | Evidence hư cấu | Insight chuẩn hóa | Không được kết luận |
 |---|---|---|---|
-| RES-001 | Một câu hỏi về “bộ tool dưới 50 USD” | Có ràng buộc ngân sách | “Thị trường chắc chắn lớn” |
-| RES-002 | Một người than khó so giá năm với giá tháng | Cần tách actual charge và monthly equivalent | “Mọi người chỉ muốn monthly” |
+| RES-001 | Một câu hỏi về “làm portfolio dưới ngân sách thấp” | Có ràng buộc ngân sách và kỹ năng | “Thị trường chắc chắn lớn” |
+| RES-002 | Một người than khó so giá hosting theo năm với giá tháng | Cần tách actual charge và monthly equivalent | “Mọi người chỉ muốn monthly” |
 | RES-003 | Một comparison page đang xếp hạng | Có intent so sánh | “Trang đó kiếm được bao nhiêu tiền” |
 
 Sau 30 evidence, chỉ giữ insight xuất hiện lặp lại và còn được nguồn trực tiếp hỗ trợ. Không lấy ba dòng ví dụ này làm bằng chứng đủ để qua Gate 1.
@@ -59,10 +59,10 @@ Kết luận đúng là **soft-launch không affiliate**, không phải tự đo
 
 | Product | Category/coverage | Actual charge | Monthly equivalent | Limitation |
 |---|---|---:|---:|---|
-| `PRD-DEMO-SEO` | SEO | 29 USD mỗi tháng | 29 USD | Không có email |
-| `PRD-DEMO-MAIL` | Email | 19 USD mỗi tháng | 19 USD | Không có SEO |
-| `PRD-DEMO-BUNDLE` | SEO + email | 39 USD mỗi tháng | 39 USD | Email automation cơ bản |
-| `PRD-DEMO-ANNUAL` | SEO + email | 360 USD trả trước/năm | 30 USD | Annual-only; vượt max upfront |
+| `PRD-DEMO-HOST` | Hosting + SSL | 29 USD mỗi tháng | 29 USD | Chưa gồm domain/website builder |
+| `PRD-DEMO-DOMAIN` | Domain + email forward | 19 USD mỗi tháng | 19 USD | Chưa có hosting/landing page |
+| `PRD-DEMO-BUNDLE` | Domain + hosting + no-code landing page | 39 USD mỗi tháng | 39 USD | Khả năng tùy chỉnh hạn chế |
+| `PRD-DEMO-ANNUAL` | Domain + hosting + WordPress | 360 USD trả trước/năm | 30 USD | Annual-only; vượt max upfront |
 
 Mỗi field giá/feature thật cần một `source_id`, URL chính thức, `checked_at`, `next_check_at`, source tier và confidence. Dòng annual phải giữ cả `actual_charge=360` và `monthly_equivalent=30`; không được nói người dùng chỉ phải trả 30 USD khi checkout.
 
@@ -90,7 +90,7 @@ Input mẫu:
   "monthly_budget": 60,
   "billing_preference": "MONTHLY_ONLY",
   "max_upfront_payment": 60,
-  "must_have_needs": ["SEO", "EMAIL"]
+  "must_have_needs": ["DOMAIN", "HOSTING", "LANDING_PAGE"]
 }
 ```
 
@@ -98,23 +98,23 @@ Kết quả hard filter:
 
 | Candidate stack | Hard-filter result | Lý do |
 |---|---|---|
-| SEO + MAIL | PASS | Phủ đủ hai need; actual charge 48 USD |
-| BUNDLE | PASS | Phủ đủ hai need; actual charge 39 USD |
+| HOST + DOMAIN | PASS | Phủ đủ domain/hosting; cần thêm cách dựng landing page miễn phí đã duyệt |
+| BUNDLE | PASS | Phủ đủ ba need; actual charge 39 USD |
 | ANNUAL | REJECT | Actual upfront 360 USD > 60 USD và không monthly |
 
 Điểm component minh họa theo rubric đã version:
 
 | Stack | Need fit | Budget fit | Ease | Limitations | Evidence | Stack Fit 0–100 |
 |---|---:|---:|---:|---:|---:|---:|
-| SEO + MAIL | 5 | 4 | 4 | 4 | 5 | 88 |
-| BUNDLE | 4 | 5 | 5 | 3 | 4 | 82 |
+| HOST + DOMAIN | 4 | 4 | 4 | 4 | 5 | 84 |
+| BUNDLE | 5 | 5 | 5 | 3 | 4 | 90 |
 
-`88` chỉ là điểm tương đối trong `data-0.1.0 + score-0.1.0`, không phải xác suất thành công hay xếp hạng tuyệt đối của thị trường.
+`90` chỉ là điểm tương đối trong `data-0.1.0 + score-0.1.0`, không phải xác suất thành công hay xếp hạng tuyệt đối của thị trường.
 
 Output deterministic:
 
-1. **Best Fit:** SEO + MAIL — phủ đủ need, evidence mạnh, 48 USD/tháng.
-2. **Cheapest Qualified:** BUNDLE — 39 USD/tháng, vượt quality floor đã version, nhưng automation email hạn chế.
+1. **Best Fit:** BUNDLE — phủ đủ domain/hosting/landing page, evidence mạnh, 39 USD/tháng.
+2. **Cheapest Qualified:** HOST + DOMAIN — 48 USD/tháng, cần dùng landing-page method miễn phí đã được mô tả rõ và có giới hạn tùy chỉnh.
 3. **Alternative:** không có candidate khác biệt đủ ý nghĩa → hiển thị hai phương án, không bịa phương án thứ ba.
 
 Commission không được dùng để chọn, sắp xếp, làm nổi bật hoặc phá hòa hai kết quả.
@@ -125,7 +125,7 @@ Tối thiểu thêm các ca sau vào [Golden Tests](templates/05-golden-tests.cs
 
 | Test | Input thay đổi | Expected |
 |---|---|---|
-| G-001 | Input chuẩn ở trên | Best Fit SEO+MAIL; Cheapest BUNDLE |
+| G-001 | Input chuẩn ở trên | Best Fit BUNDLE; Cheapest HOST+DOMAIN |
 | G-002 | Budget 35 USD | No valid stack + giải thích thiếu ngân sách |
 | G-003 | Monthly-only | ANNUAL luôn bị reject |
 | G-004 | Thiếu price evidence của BUNDLE | BUNDLE bị HOLD/ẩn claim theo rule |
@@ -149,14 +149,14 @@ Khi submit input hợp lệ:
 recommendation_run_id = REC-20260825-001
 data_version = data-0.1.0
 scoring_version = score-0.1.0
-output = SEO+MAIL / BUNDLE
+output = BUNDLE / HOST+DOMAIN
 ```
 
 Nếu người dùng bấm cả hai kết quả, đây là **hai event**, không phải hai cột được nhét vào Recommendation Run:
 
 | Event ID | Run | Link type | Product | Derived affiliate click |
 |---|---|---|---|---|
-| EVT-001 | REC-20260825-001 | OFFICIAL_NON_AFFILIATE | PRD-DEMO-SEO | false |
+| EVT-001 | REC-20260825-001 | OFFICIAL_NON_AFFILIATE | PRD-DEMO-HOST | false |
 | EVT-002 | REC-20260825-001 | OFFICIAL_NON_AFFILIATE | PRD-DEMO-BUNDLE | false |
 
 GA enhanced measurement có thể hỗ trợ một số external click, nhưng dự án vẫn dùng custom `product_outbound_click`. Nếu link đi qua `/go/...` cùng domain thì không được giả định GA tự nhận đó là outbound click.

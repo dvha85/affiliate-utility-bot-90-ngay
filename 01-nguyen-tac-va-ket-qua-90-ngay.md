@@ -2,7 +2,7 @@
 
 ## 1. Mô hình bằng ngôn ngữ đời thường
 
-Bạn không bán con bot. Bạn xây một công cụ miễn phí giúp người dùng ra quyết định mua phần mềm tốt hơn. Nếu người dùng tự tìm thấy công cụ, nhận được gợi ý hữu ích, bấm một liên kết đã công bố là link affiliate và mua sản phẩm, chương trình affiliate có thể ghi nhận hoa hồng cho bạn.
+Bạn không bán con bot. Bạn xây một công cụ miễn phí giúp freelancer Việt Nam lần đầu cần website/landing page để nhận khách ra quyết định chọn domain, hosting và cách dựng trang phù hợp. Nếu người dùng tự tìm thấy công cụ, nhận được gợi ý hữu ích, bấm một liên kết đã công bố là link affiliate và mua dịch vụ, chương trình affiliate có thể ghi nhận hoa hồng cho bạn.
 
 ```text
 Nhu cầu thật
@@ -19,23 +19,22 @@ Bot làm phần lặp lại: phát hiện dữ liệu cũ, nháp cập nhật, k
 
 ## 2. Sản phẩm đầu tiên đã khóa phạm vi
 
-### AI/SaaS Stack Builder
+### Website Stack Builder cho freelancer Việt Nam
 
 Người dùng nhập:
 
-- Vai trò hoặc loại hình công việc.
-- Mục tiêu chính.
-- Quy mô cá nhân/nhóm.
-- Ngân sách tháng.
-- Cách muốn thanh toán: chỉ trả theo tháng hay chấp nhận trả trước theo năm; mức chi trả trước tối đa.
-- Nhu cầu: SEO, nội dung, email, analytics, automation, hình ảnh/video…
-- Mức ưu tiên: rẻ nhất, cân bằng, hay tự động hóa cao.
+- Loại hình dịch vụ: designer, photographer, gia sư, tư vấn viên hoặc freelancer dịch vụ khác.
+- Mục tiêu trang: portfolio, landing page nhận liên hệ, giới thiệu dịch vụ hay bán một khóa học nhỏ.
+- Mức kỹ năng: không code, sẵn sàng dùng no-code, hay có thể tự quản lý WordPress.
+- Ngân sách tháng và mức trả trước tối đa.
+- Thị trường/ngôn ngữ, nhu cầu domain riêng, email theo tên miền, form nhận liên hệ và mức hỗ trợ tiếng Việt cần có.
+- Mức ưu tiên: rẻ nhất, dễ tự làm nhất, hay có dư địa phát triển.
 
 Hệ thống trả về tối đa ba phương án:
 
-1. Phù hợp tổng thể.
+1. Phù hợp tổng thể: domain + hosting + cách dựng landing page.
 2. Chi phí thấp nhất vẫn đáp ứng điều kiện tối thiểu.
-3. Một phương án thay thế khác biệt có ý nghĩa, chẳng hạn ít công cụ hơn hoặc đánh đổi khác. Chỉ gắn nhãn “Tự động hóa cao nhất” khi đã có rubric `automation_coverage` và evidence được duyệt; nếu chưa có thì không hiển thị nhãn đó.
+3. Một phương án thay thế có đánh đổi thật, chẳng hạn no-code dễ làm nhưng ít tùy chỉnh hơn, hoặc WordPress cần nhiều công sức hơn nhưng có dư địa phát triển.
 
 Mỗi kết quả phải cho biết:
 

@@ -34,11 +34,11 @@ Bạn có thể đọc nó theo tiếng Việt:
 
 ```text
 Được nhìn thấy → vào website → bắt đầu dùng utility → hoàn thành utility
-→ xem kết quả → bấm sang sản phẩm → có đơn được báo → đơn hợp lệ
+→ xem website stack đề xuất → bấm sang nhà cung cấp → có đơn được báo → đơn hợp lệ
 → hoa hồng chốt cuối → tiền được thanh toán
 ```
 
-Không phải dự án nào cũng nhìn thấy toàn bộ chuỗi. Ví dụ trong giai đoạn chưa được duyệt affiliate program, bạn chỉ có thể đo đến `outbound_click` sang product page. Điều đó bình thường, miễn là bạn ghi rõ trạng thái `NOT_APPLICABLE_YET`, không gọi click là doanh thu.
+Không phải dự án nào cũng nhìn thấy toàn bộ chuỗi. Ví dụ trong giai đoạn chưa được duyệt affiliate program, Website Stack Builder chỉ có thể đo đến `outbound_click` sang trang nhà cung cấp domain, hosting hoặc website builder. Điều đó bình thường, miễn là bạn ghi rõ trạng thái `NOT_APPLICABLE_YET`, không gọi click là doanh thu.
 
 ---
 
@@ -51,7 +51,7 @@ Không phải dự án nào cũng nhìn thấy toàn bộ chuỗi. Ví dụ tron
 | `utility_start` | Họ bắt đầu nhập thông tin vào utility | Có | Họ đã nhận được gợi ý |
 | `utility_complete` | Họ gửi đủ input để utility tính kết quả | Có | Họ tin tưởng hoặc sẽ bấm link |
 | `result_view` | Kết quả gợi ý đã hiện cho họ | Có | Họ đã xem kỹ mọi gợi ý |
-| `outbound_click` | Họ bấm từ website sang trang sản phẩm | Có | Đã có đơn hoặc có commission |
+| `outbound_click` | Họ bấm từ utility sang trang nhà cung cấp domain, hosting hoặc website builder | Có | Đã có đơn hoặc có commission |
 | `order` | Affiliate program báo một đơn/lead | Thường không; tùy program | Đơn sẽ được giữ lại |
 | `valid` | Đơn qua điều kiện cơ bản của program | Thường không | Hoa hồng đã chốt hoặc đã trả |
 | `final_commission` | Khoản commission không còn nằm trong thời gian reversal/duyệt | Thường không | Tiền đã về tài khoản/payout method |
@@ -69,7 +69,7 @@ Không phải dự án nào cũng nhìn thấy toàn bộ chuỗi. Ví dụ tron
 
 ## 4. Ví dụ xuyên suốt: 100 người bắt đầu funnel
 
-Giả sử trong một tuần, bạn có các số liệu **minh họa hư cấu** sau. Đây không phải benchmark, mục tiêu hay dự báo.
+Giả sử trong một tuần, Website Stack Builder có các số liệu **minh họa hư cấu** sau. Đây không phải benchmark, mục tiêu hay dự báo.
 
 | Bước | Số lượng | Cách hiểu đúng |
 |---|---:|---|
@@ -78,7 +78,7 @@ Giả sử trong một tuần, bạn có các số liệu **minh họa hư cấu
 | `utility_start` | 35 | 35 phiên bắt đầu nhập dữ liệu |
 | `utility_complete` | 20 | 20 phiên hoàn thành input |
 | `result_view` | 20 | 20 phiên được nhìn thấy kết quả |
-| `outbound_click` | 6 | 6 lượt bấm sang product page |
+| `outbound_click` | 6 | 6 lượt bấm sang trang nhà cung cấp domain/hosting/builder |
 | `order` | 1 | Program báo 1 đơn, nhưng còn chờ |
 | `valid` | 1 | Đơn không bị từ chối/refund trong giai đoạn kiểm tra |
 | `final_commission` | 1 | Commission được chốt là 12 USD |
@@ -126,7 +126,7 @@ Program, network hoặc merchant thường là nguồn sự thật cho order/com
 Trong giai đoạn đầu, mục tiêu của bạn là lưu được mapping an toàn:
 
 ```text
-link_id → program → product → checked date → link status
+link_id → program → provider/service → checked date → link status
 ```
 
 Không dùng sub-ID chứa trực tiếp dữ liệu cá nhân. Đọc terms của từng program trước khi bật tracking parameter hoặc router.
@@ -173,7 +173,7 @@ Ví dụ:
 | `utility_start` | Người dùng thay đổi input đầu tiên hoặc bấm “Bắt đầu” | Chỉ tải trang nhưng không tương tác |
 | `utility_complete` | Input bắt buộc hợp lệ và engine chạy | Thiếu budget/must-have hoặc form lỗi |
 | `result_view` | Kết quả render thành công với version đã duyệt | Engine lỗi hoặc không có kết quả hợp lệ |
-| `outbound_click` | Người dùng chủ động bấm CTA product/link đã duyệt | Link bị disabled, lỗi hoặc auto-redirect |
+| `outbound_click` | Người dùng chủ động bấm CTA sang provider/service đã duyệt | Link bị disabled, lỗi hoặc auto-redirect |
 
 **Quy tắc quan trọng:** không tự redirect để tăng click và không ghi event click nếu link không mở được. Cả hai làm bẩn số liệu và có thể trái terms.
 
@@ -218,8 +218,8 @@ Với mỗi điểm rơi của funnel, viết một giả thuyết cần kiểm 
 | Điểm quan sát | Diễn giải quá mức | Cách viết đúng |
 |---|---|---|
 | Nhiều visit, ít utility start | “Người dùng ghét utility.” | “Cần kiểm tra CTA, page intent, tốc độ tải và mức khớp giữa query với trang.” |
-| Nhiều utility complete, ít outbound click | “Sản phẩm không tốt.” | “Cần kiểm tra độ tin cậy của kết quả, giá hiển thị, disclosure, CTA và mức phù hợp của recommendation.” |
-| Có click, không có order | “Affiliate không hiệu quả.” | “Chưa đủ data hoặc cần kiểm tra market fit, link, terms, product page, attribution và thời gian quan sát.” |
+| Nhiều utility complete, ít outbound click | “Nhà cung cấp không tốt.” | “Cần kiểm tra độ tin cậy của stack, giá hiển thị, độ khó, disclosure, CTA và mức phù hợp của recommendation.” |
+| Có click, không có order | “Affiliate không hiệu quả.” | “Chưa đủ data hoặc cần kiểm tra market fit, link, terms, trang nhà cung cấp, attribution và thời gian quan sát.” |
 
 ### Bước 6 — Chốt những gì bot không được tự suy diễn (10 phút)
 
