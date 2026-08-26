@@ -67,6 +67,7 @@ Các bài này mở rộng lộ trình Day 1–90 thành hướng dẫn tự h�
 | Ngày | Bài học | Trạng thái |
 |---:|---|---|
 | 1 | [Hiểu mô hình và lập Project Charter](bai-hoc/ngay-01-mo-hinh-va-project-charter.md) | Hoàn thành |
+| 2 | [Vẽ funnel doanh thu và hiểu các trạng thái tiền](bai-hoc/ngay-02-funnel-va-trang-thai-doanh-thu.md) | Hoàn thành |
 
 ## Bảy giai đoạn và sản phẩm bàn giao
 
